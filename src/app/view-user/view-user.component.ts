@@ -12,4 +12,15 @@ export class ViewUserComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  user = {id:7865, name:"Sumath",
+
+  email:"suman@gmail.com"};
+
+
+
+  deleteUser(){
+
+    alert("Successfully Deleted");
+
+  }
 }

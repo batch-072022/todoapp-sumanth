@@ -9,9 +9,11 @@ import { ListUsersComponent } from './list-users/list-users.component';
 import { LoginComponent } from './login/login.component';
 
 import { RegisterComponent } from './register/register.component';
-import { AddTaskComponent } from './add-task/add-task.component';
+import { AddtaskComponent } from './addtask/addtask.component';
 import { ListtaskComponent } from './listtask/listtask.component';
 import { EdittaskComponent } from './edittask/edittask.component';
+import { EditUserComponent } from './edit-user/edit-user.component';
+import { ViewUserComponent } from './view-user/view-user.component';
 
 
 
@@ -23,12 +25,13 @@ const routes: Routes = [
 
   {path:'login', component:LoginComponent},
 
-  {path:'listuser', component:ListUsersComponent},
-  {path:'addtask', component:AddTaskComponent},
+  {path:'users', component:ListUsersComponent},
+  {path:'listtask',component:ListtaskComponent},
+  {path:'addtask', component:AddtaskComponent},
   {path:'edittask', component:EdittaskComponent},
-
+  {path:'edituser', component:EditUserComponent},
+  {path:'viewuser', component:ViewUserComponent},
   {path:'', redirectTo:'home' ,pathMatch:'full'}
-  
 
 ];
 

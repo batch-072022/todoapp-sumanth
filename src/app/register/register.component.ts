@@ -12,4 +12,25 @@ export class RegisterComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  //string Interpolation
+
+  name = "Sumanth Venkata"
+
+
+
+//structure Directives
+
+  isValidUser = false;
+
+
+
+  departments = ["CSE","IT","MECH","ECE"]
+
+
+
+  onClick(){
+
+    alert("Button Clicked");
+
+  }
 }
